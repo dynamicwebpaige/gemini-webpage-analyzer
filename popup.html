@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gemini Trvel Buddy</title>
+    <link rel="stylesheet" type="text/css" href="popup.css">
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <div id="gemini" style="display: none;">
+      <label for="geminiKey">Gemini Key:</label>
+      <input type="text" id="geminiKey" />
+      <a id="geminiLink" href="https://aistudio.google.com/app/apikey" target="_blank">Get Gemini Key From AI Studio</a>
+      <br />
+      <label for="systemInstruction">System Instruction:</label>
+      <textarea type="text" id="systemInstruction" ></textarea>
+      <button id="saveKey">Save</button>
+    </div>
+    <div id="editGemini" style="display: none;">
+      <button id="editKey">Setting</button>
+    </div>
+    <div id="loading" class="loading" style="display: none;"></div>
+    <div id="response"></div>
+
+    <button id="saveResponse" style="display: none;">Save Response to File</button>
+    <div id="filenameDiv" style="display: none;">
+      <label for="defaultFilename">Default Filename:</label>
+      <input type="text" id="defaultFilename" value="travel-recommendations.md"/>
+    </div>
+  </body>
+</html>
