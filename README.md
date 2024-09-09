@@ -1,13 +1,11 @@
 # Gemini Web Page Analyzer
 
-Tired of sifting through endless web pages looking for key information? Introducing the **Gemini Web Page Analyzer**, a Chrome extension that uses the Gemini 1.5 Flash model to dissect and understand web content for you. With a single click, you can unlock a deeper level of analysis, revealing key topics, summarizing text and images, recommending new content, and even determining the overall sentiment of the page.
-
-Just insert your API key ([get one today for free at ai.studio.google.com](aistudio.google.com)) and specify your instructions.
+Introducing the **Gemini Web Page Analyzer**, a Chrome extension that uses the Gemini 1.5 Flash model to dissect and understand web content for you. Just insert your Gemini API key (get one today for free at [ai.studio.google.com](aistudio.google.com)) and specify your instructions.
 
 ## Features
 
-- **API Key Management**: Save and edit the Gemini API key and system instruction.
-- **Text Extraction**: Extract selected text or the entire body text from the current webpage.
+- **API Key Management**: Save and edit the Gemini API key and system instructions.
+- **Text and Image Extraction**: Extract selected text and images, or the entire web page.
 - **API Calls**: Send the extracted text to the Gemini API and display the generated content.
 
 ## Installation
